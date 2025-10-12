@@ -1,14 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Products() {
+    const navigate = useNavigate();
+
     const products = [
         {
             id: 1,
             name: "The Maple Golf Residence",
-            image: "MapleResidence.png",
+            image: "/MapleResidence.png",
             description: "Hunian eksklusif dengan view lapangan golf yang memukau, dilengkapi fasilitas premium dan desain arsitektur modern.",
             features: [
-                "View langsung ke lapangan golf dan gunung",
+                "View langsung ke lapangan golf",
                 "Fasilitas klubhouse lengkap",
                 "Desain minimalis modern",
                 "Area hijau yang luas",
@@ -17,14 +20,14 @@ function Products() {
         },
         {
             id: 2,
-            name: "The Ebony Residence",
-            image: "EbonyResidence.png",
+            name: "The Ebony Residence", 
+            image: "/EbonyResidence.png",
             description: "Cluster mewah dengan konsep hunian modern yang elegan, dilengkapi dengan taman bermain dan area rekreasi keluarga.",
             features: [
                 "Desain interior mewah",
-                "Taman bermain anak",
-                "Akses F&B area",
-                "Akses cepat ke jalan tol",
+                "Taman bermain anak", 
+                "Kolam renang keluarga",
+                "Area barbecue",
                 "Parkir luas dan aman"
             ]
         }
@@ -53,7 +56,12 @@ function Products() {
                                         </li>
                                     ))}
                                 </ul>
-                                <a href="#contact" className="btn btn-secondary">Info Lebih Lanjut</a>
+                                <button 
+                                    onClick={() => navigate(product.id === 1 ? '/maple-golf-residence' : '/ebony-residence')}
+                                    className="btn btn-secondary"
+                                >
+                                    Info Lebih Lanjut
+                                </button>
                             </div>
                         </div>
                     ))}

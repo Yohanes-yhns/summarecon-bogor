@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -8,26 +9,23 @@ function Footer() {
                     <div className="footer-column">
                         <h3>Summarecon Bogor</h3>
                         <p>Perusahaan properti terpercaya dengan komitmen memberikan hunian berkualitas untuk keluarga Indonesia.</p>
-                        <div className="social-links">
-                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                        </div>
                     </div>
                     <div className="footer-column">
                         <h3>Produk Kami</h3>
-                        <a href="#">The Maple Golf Residence</a>
-                        <a href="#">The Ebony Residence</a>
-                        <a href="#">Proyek Mendatang</a>
+                        <Link to="/maple-golf-residence" className="footer-link">
+                            The Maple Golf Residence
+                        </Link>
+                        <Link to="/ebony-residence" className="footer-link">
+                            The Ebony Residence
+                        </Link>
                     </div>
                     <div className="footer-column">
                         <h3>Tautan Cepat</h3>
-                        <a href="#home">Beranda</a>
-                        <a href="#about">Tentang</a>
-                        <a href="#products">Produk</a>
-                        <a href="#maps">Lokasi</a>
-                        <a href="#contact">Kontak</a>
+                        <a href="/">Beranda</a>
+                        <a href="/#about">Tentang</a>
+                        <a href="/#products">Produk</a>
+                        <a href="/#maps">Lokasi</a>
+                        <a href="/#contact">Kontak</a>
                     </div>
                     <div className="footer-column">
                         <h3>Kontak</h3>

@@ -1,15 +1,20 @@
 import React, { useEffect } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import VideoSection from './components/VideoSection'
 import About from './components/About'
 import Products from './components/Products'
 import Maps from './components/Maps'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppFloat from './components/WhatsAppFloat'
+import MapleDetail from './components/MapleDetail'
+import EbonyDetail from './components/EbonyDetail'
 import './App.css'
 
-function App() {
+// Komponen untuk halaman utama
+function HomePage() {
   useEffect(() => {
     // Smooth scroll untuk navigasi
     const links = document.querySelectorAll('a[href^="#"]')
@@ -44,13 +49,26 @@ function App() {
   }, [])
 
   return (
-    <div>
-      <Header />
+    <>
       <Hero />
+      <VideoSection />
       <About />
       <Products />
       <Maps />
       <Contact />
+    </>
+  )
+}
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/maple-golf-residence" element={<MapleDetail />} />
+        <Route path="/ebony-residence" element={<EbonyDetail />} />
+      </Routes>
       <Footer />
       <WhatsAppFloat />
     </div>

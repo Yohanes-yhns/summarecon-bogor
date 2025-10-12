@@ -4,10 +4,24 @@ function Contact() {
     return (
         <section className="contact" id="contact">
             <div className="container">
-                <div className="section-title">
+                <div className="section-title-contact">
                     <h2>Hubungi Kami</h2>
                     <p>Kami siap membantu mewujudkan impian Anda memiliki rumah idaman. Hubungi kami untuk informasi lebih lanjut.</p>
                 </div>
+                
+                {/* Foto Sales Property */}
+                <div className="sales-profile">
+                    <div className="sales-photo">
+                        <img src="/Gio.jpeg" alt="Sales Property Summarecon Bogor" />
+                    </div>
+                    <div className="sales-info">
+                        <div className="sales-badge">Konsultan Properti</div>
+                        <h3>Tim Professional Summarecon Bogor</h3>
+                        <p>Tim sales profesional kami siap membantu Anda menemukan hunian impian dengan pelayanan terbaik dan informasi yang lengkap tentang The Maple Golf Residence dan The Ebony Residence.</p>
+                       
+                    </div>
+                </div>
+
                 <div className="contact-info">
                     <div className="contact-item">
                         <i className="fas fa-map-marker-alt"></i>
