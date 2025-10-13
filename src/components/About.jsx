@@ -17,7 +17,7 @@ function About() {
                         <a href="#contact" className="btn">Hubungi Kami</a>
                     </div>
                     <div className="about-image">
-                        <img src="/Logo-SMRC.png" alt="Summarecon Bogor" />
+                        <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760340553/Logo-SMRC_gede0e.png" alt="Summarecon Bogor" />
                     </div>
                 </div>
             </div>

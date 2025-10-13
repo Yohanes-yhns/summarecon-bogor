@@ -8,7 +8,7 @@ function Products() {
         {
             id: 1,
             name: "The Maple Golf Residence",
-            image: "/MapleResidence.png",
+            image: "https://res.cloudinary.com/daqiwll92/image/upload/v1760340650/MapleResidence_nm6oz5.png",
             description: "Hunian eksklusif dengan view lapangan golf yang memukau, dilengkapi fasilitas premium dan desain arsitektur modern.",
             features: [
                 "View langsung ke lapangan golf",
@@ -21,7 +21,7 @@ function Products() {
         {
             id: 2,
             name: "The Ebony Residence", 
-            image: "/EbonyResidence.png",
+            image: "https://res.cloudinary.com/daqiwll92/image/upload/v1760340754/EbonyResidence_lnlu9h.png",
             description: "Cluster mewah dengan konsep hunian modern yang elegan, dilengkapi dengan taman bermain dan area rekreasi keluarga.",
             features: [
                 "Desain interior mewah",

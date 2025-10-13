@@ -10,7 +10,7 @@ function MapleDetail() {
     tagline: "Hunian Eksklusif dengan View Lapangan Golf",
     description:
       "The Maple Golf Residence menghadirkan konsep hunian eksklusif yang memadukan kemewahan modern dengan ketenangan alam. Setiap unit dirancang untuk memberikan pengalaman hidup terbaik dengan view langsung ke lapangan golf yang memukau.",
-    images: ["/MapleResidence.png", "/GP1Maple.png", "/MG1.png"],
+    images: ["https://res.cloudinary.com/daqiwll92/image/upload/v1760340650/MapleResidence_nm6oz5.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760341023/GP1_kzvcvb.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760341077/Screenshot_2025-10-12_at_21.11.33_yfpfzt.png"],
     location: "Jl. Bukit Geulis, Nagrak, Kec. Sukaraja, Kabupaten Bogor",
   };
 
@@ -67,19 +67,19 @@ function MapleDetail() {
           </p>
           <div className="description-image">
             <img
-              src="/Type12.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341230/Screenshot_2025-10-13_at_14.40.04_aesosj.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Type12STD.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341350/Type12STD_sddsrc.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Type12Hoek.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341430/Type12Hoek_kny6nx.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Type12Irre.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341493/Screenshot_2025-10-12_at_21.31.04_cewc4a.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
           </div>
@@ -91,15 +91,15 @@ function MapleDetail() {
           </p>
           <div className="description-image">
             <img
-              src="/Type15.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341550/Type15_maujte.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Type15STD.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341659/Type15STD_poxwrz.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Type15HOEK.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341726/Type15Hoek_p0mazm.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
           </div>
@@ -108,27 +108,27 @@ function MapleDetail() {
           <h3>Optional</h3>
           <div className="description-image">
           <img
-              src="/HomeLift.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341797/HomeLift_nmvluv.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Lift.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341838/Screenshot_2025-10-12_at_21.43.39_fjxlsv.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/AGD.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341888/AGD_kqgpzn.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/D&P.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341921/Screenshot_2025-10-12_at_21.48.48_k7xz06.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Deck.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760341976/Screenshot_2025-10-12_at_21.49.38_jzftxw.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/D&P12.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342066/Screenshot_2025-10-12_at_21.50.52_mixwtb.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
           </div>
@@ -137,15 +137,15 @@ function MapleDetail() {
           <h3>Specifications & Price</h3>
           <div className="description-image">
           <img
-              src="/Spec.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342099/Screenshot_2025-10-12_at_21.54.03_vksiee.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Price.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342139/Screenshot_2025-10-12_at_21.54.55_lvctoc.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/HL.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342185/Screenshot_2025-10-12_at_21.56.08_uc9itt.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
           </div>
@@ -154,11 +154,11 @@ function MapleDetail() {
           <h3>Promo</h3>
           <div className="description-image">
           <img
-              src="/PromoBCA.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342233/Screenshot_2025-10-12_at_21.58.02_gqela2.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
             <img
-              src="/Mandiri.png"
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342237/Screenshot_2025-10-12_at_21.58.52_ei0ygf.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
           </div>

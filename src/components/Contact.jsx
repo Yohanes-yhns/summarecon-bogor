@@ -12,7 +12,7 @@ function Contact() {
                 {/* Foto Sales Property */}
                 <div className="sales-profile">
                     <div className="sales-photo">
-                        <img src="/Gio.jpeg" alt="Sales Property Summarecon Bogor" />
+                        <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760340878/Gio_ywfyju.jpg" alt="Sales Property Summarecon Bogor" />
                     </div>
                     <div className="sales-info">
                         <div className="sales-badge">Konsultan Properti</div>

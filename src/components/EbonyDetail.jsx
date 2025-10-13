@@ -10,7 +10,7 @@ function EbonyDetail() {
     tagline: "Kemewahan Modern dalam Setiap Detail",
     description:
       "The Ebony Residence merupakan cluster mewah dengan desain kontemporer yang elegan. Setiap aspek dirancang untuk memberikan kenyamanan maksimal dan gaya hidup eksklusif bagi penghuninya.",
-    images: ["/EbonyResidence.png", "/ER1.png", "/ER2.png"],
+    images: ["https://res.cloudinary.com/daqiwll92/image/upload/v1760340754/EbonyResidence_lnlu9h.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760342297/Screenshot_2025-10-12_at_22.09.09_pfjq3v.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760342298/Screenshot_2025-10-12_at_22.13.35_uhiwcp.png"],
     location: "Jl. Bukit Geulis, Nagrak, Kec. Sukaraja, Kabupaten Bogor",
   };
 
@@ -91,7 +91,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER3.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342518/Screenshot_2025-10-13_at_15.01.22_ndpa75.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -137,7 +137,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER4.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342621/Screenshot_2025-10-13_at_15.03.10_plsd9b.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -171,7 +171,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER5.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342674/Screenshot_2025-10-13_at_15.04.22_k7qewx.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -217,7 +217,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER6.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342733/Screenshot_2025-10-13_at_15.05.17_mu54qo.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -251,7 +251,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER3.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342792/Screenshot_2025-10-13_at_15.06.19_f8zkii.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -297,7 +297,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER5.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342854/Screenshot_2025-10-13_at_15.07.21_vkql64.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -331,7 +331,7 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER6.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342894/Screenshot_2025-10-13_at_15.08.02_cd6cih.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
@@ -377,18 +377,18 @@ function EbonyDetail() {
           </div>
 
           <div className="description-image">
-            <img src="/ER5.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342894/Screenshot_2025-10-13_at_15.08.02_cd6cih.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
 
         <div className="simple-description-section">
           <div className="description-image">
-            <img src="/ER7.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760343037/Screenshot_2025-10-13_at_15.10.19_ymvyrj.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
         <div className="simple-description-section">
           <div className="description-image">
-            <img src="/ER8.png" alt="Type 7 Brown Premium" />
+            <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760343092/Screenshot_2025-10-13_at_15.11.18_vcwhfs.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
       </div>
