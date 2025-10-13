@@ -317,6 +317,7 @@ header {
   padding: 25px;
 }
 
+
 .product-info h3 {
   font-size: 1.5rem;
   color: var(--primary);
@@ -351,6 +352,12 @@ header {
     min-height: 100vh;
 }
 
+.product-info .btn {
+  display: block; /* Ubah ke block element */
+  margin: 20px auto 0 auto; /* Auto margin untuk center horizontal */
+  width: auto; /* Biarkan width sesuai konten */
+  margin-top: 50px;
+}
 /* Breadcrumb */
 .breadcrumb {
     display: flex;
@@ -1151,16 +1158,21 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .hero h1 {
-    display: none;
+    .hero h1 {
+    font-size: 2rem; /* Ukuran lebih kecil untuk mobile */
+    margin-bottom: 15px;
   }
   
   .hero p {
-    display: none;
+    font-size: 1rem; /* Ukuran lebih kecil */
+    margin-bottom: 25px;
   }
   
   .btn {
-    display: none;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    width: 100%; /* Full width di mobile */
+    max-width: 280px;
   }
   
   .whatsapp-float {
@@ -1360,5 +1372,132 @@ footer {
         padding: 10px 0;
         text-align: center;
         width: 100%;
+    }
+}
+
+/* Mobile Responsive untuk Products */
+@media (max-width: 768px) {
+    .product-card {
+        margin: 0 10px;
+    }
+    
+    .product-btn {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 1.1rem;
+        margin-top: 15px;
+    }
+    
+    .product-info {
+        padding: 20px 15px;
+    }
+    
+    .product-features {
+        margin-bottom: 15px;
+    }
+    
+    .product-features li {
+        font-size: 0.9rem;
+        padding: 6px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    
+    .product-card {
+        margin: 0 5px;
+    }
+    
+    .product-btn {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+    
+    .product-info h3 {
+        font-size: 1.3rem;
+    }
+    
+    .product-info p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Responsive untuk Maps */
+@media (max-width: 768px) {
+  .map-buttons {
+    flex-direction: column;
+    align-items: center; /* Ini yang penting untuk center di mobile */
+    gap: 12px;
+    padding: 0 20px;
+  }
+  
+  .map-btn {
+    width: 100%; /* Full width */
+    max-width: 300px; /* Tapi ada max width */
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-buttons {
+    padding: 0 15px;
+    gap: 10px;
+  }
+  
+  .map-btn {
+    max-width: 280px;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .map-display {
+    height: 300px;
+    margin: 0 10px;
+  }
+}
+
+/* Pastikan container mobile friendly */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .section-title p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
+
+/* Improve button visibility on mobile */
+.btn {
+    min-height: 44px; /* Minimum touch target size for mobile */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Mobile menu improvement */
+@media (max-width: 768px) {
+    .nav-links.active {
+        padding: 15px;
+    }
+    
+    .nav-links.active li {
+        margin: 8px 0;
+    }
+    
+    .nav-links.active a {
+        padding: 12px 0;
+        font-size: 1.1rem;
     }
 }
