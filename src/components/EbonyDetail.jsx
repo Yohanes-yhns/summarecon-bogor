@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 
 function EbonyDetail() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const handleHomeClick = () => {
+    navigate("/");
+    // Scroll to top setelah navigasi
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  };
+
+  // 🔥 DAN FUNGSI INI UNTUK TOMBOL PRODUK 🔥
+  const handleProductsClick = () => {
+    navigate("/");
+    // Tunggu sebentar lalu scroll ke section products
+    setTimeout(() => {
+      const productsSection = document.getElementById('products');
+      if (productsSection) {
+        window.scrollTo({
+          top: productsSection.offsetTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    }, 100);
+  };
 
   const product = {
     id: 2,

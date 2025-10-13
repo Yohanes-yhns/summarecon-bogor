@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 
 function MapleDetail() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const handleHomeClick = () => {
+    navigate("/");
+    // Scroll to top setelah navigasi
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  };
+
+  // 🔥 DAN FUNGSI INI UNTUK TOMBOL PRODUK 🔥
+  const handleProductsClick = () => {
+    navigate("/");
+    // Tunggu sebentar lalu scroll ke section products
+    setTimeout(() => {
+      const productsSection = document.getElementById('products');
+      if (productsSection) {
+        window.scrollTo({
+          top: productsSection.offsetTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    }, 100);
+  };
 
   const product = {
     id: 1,
@@ -19,11 +46,13 @@ function MapleDetail() {
       <div className="container">
         {/* Breadcrumb */}
         <div className="breadcrumb">
-          <button onClick={() => navigate("/")} className="breadcrumb-link">
+          <button onClick={handleHomeClick} className="breadcrumb-link">
             Beranda
           </button>
           <span> / </span>
-          <button className="breadcrumb-link">Produk</button>
+          <button onClick={handleProductsClick} className="breadcrumb-link">
+            Produk
+          </button>
           <span> / </span>
           <span className="breadcrumb-current">{product.name}</span>
         </div>

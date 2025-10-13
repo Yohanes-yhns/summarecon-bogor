@@ -10,12 +10,31 @@ function Header() {
         setMenuActive(!menuActive);
     };
 
+    // 🔥 FUNGSI UNTUK HANDLE KLIK BERANDA 🔥
+    const handleHomeClick = () => {
+        setMenuActive(false); // Tutup mobile menu jika terbuka
+        
+        if (location.pathname === '/') {
+            // Jika sudah di homepage, scroll ke atas
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            // Jika di halaman lain, navigasi ke homepage dan scroll ke atas
+            navigate("/");
+            setTimeout(() => {
+                window.scrollTo(0, 0);
+            }, 100);
+        }
+    };
+
+    // Fungsi untuk handle navigasi ke section
     const handleNavigation = (sectionId) => {
-        // Tutup mobile menu jika terbuka
         setMenuActive(false);
 
-        // Jika sudah di homepage, scroll ke section
         if (location.pathname === '/') {
+            // Jika sudah di homepage, scroll ke section
             const element = document.querySelector(sectionId);
             if (element) {
                 window.scrollTo({
@@ -25,8 +44,7 @@ function Header() {
             }
         } else {
             // Jika di halaman lain, navigasi ke homepage dulu
-            navigate('/');
-            // Tunggu sampai homepage load, lalu scroll ke section
+            navigate("/");
             setTimeout(() => {
                 const element = document.querySelector(sectionId);
                 if (element) {
@@ -37,11 +55,6 @@ function Header() {
                 }
             }, 100);
         }
-    };
-
-    const handleHomeClick = () => {
-        setMenuActive(false);
-        navigate('/');
     };
 
     return (
