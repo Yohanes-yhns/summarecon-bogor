@@ -10,7 +10,7 @@ function VideoSection() {
                     <iframe 
                         src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&autoplay=0`}
                         title="Virtual Tour Summarecon Bogor"
-                        frameBorder="0" 
+                        frameBorder="" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen
                     ></iframe>

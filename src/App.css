@@ -163,13 +163,12 @@ header {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/daqiwll92/image/upload/v1760340377/BG_tjgbdb.jpg') no-repeat center top/contain;
-  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/daqiwll92/image/upload/v1760340377/BG_tjgbdb.jpg') no-repeat center center/contain;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 0 20px;
 }
 
 .hero-content {
@@ -179,20 +178,18 @@ header {
 
 .hero h1 {
   font-size: 3.5rem;
-  margin-bottom: 20px;
   font-weight: 700;
 }
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
   opacity: 0.9;
 }
 
 /* Video Only Section Styles */
 .video-only-section {
     width: 100%;
-    background: #000;
+    background: #ffffff;
 }
 
 .video-fullscreen {
@@ -204,7 +201,7 @@ header {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 50%; /* 16:9 Aspect Ratio */
 }
 
 .video-wrapper iframe {
@@ -218,7 +215,7 @@ header {
 
 /* Optional: Tambahkan height fixed untuk tampilan lebih konsisten */
 .video-fullscreen.fixed-height {
-    height: 80vh;
+    height: 100vh;
 }
 
 .video-fullscreen.fixed-height .video-wrapper {
@@ -226,10 +223,6 @@ header {
     padding-bottom: 0;
 }
 
-/* Dark Mode Optimization */
-.video-only-section {
-    background: #f8f9fa;
-}
 /* About Section */
 .about {
   background-color: white;
