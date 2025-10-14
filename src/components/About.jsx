@@ -14,10 +14,22 @@ function About() {
                         <p>Summarecon Bogor merupakan kawasan hunian modern yang memadukan keindahan alam pegunungan dengan konsep kota mandiri yang lengkap dan berkelas.</p>
                         <p>Dikelilingi panorama hijau dan udara sejuk khas Bogor, kawasan ini dilengkapi fasilitas unggulan seperti clubhouse eksklusif, area komersial, taman tematik, dan akses mudah ke tol Jagorawi.</p>
                         <p>Setiap cluster dirancang dengan arsitektur elegan dan lingkungan yang asri, menjadikan Summarecon Bogor pilihan sempurna untuk keluarga yang menginginkan kenyamanan, keamanan, dan gaya hidup modern di tengah alam yang menenangkan.</p>
-                        <a href="#contact" className="btn">Hubungi Kami</a>
+                        
+                        <a 
+                            href="https://wa.me/6282211555091"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-whatsapp"
+                        >
+                            <i className="fab fa-whatsapp"></i> Hubungi Kami
+                        </a>
                     </div>
+                    
                     <div className="about-image">
-                        <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760340553/Logo-SMRC_gede0e.png" alt="Summarecon Bogor" />
+                        <img 
+                            src="https://res.cloudinary.com/daqiwll92/image/upload/v1760340553/Logo-SMRC_gede0e.png" 
+                            alt="Summarecon Bogor" 
+                        />
                     </div>
                 </div>
             </div>

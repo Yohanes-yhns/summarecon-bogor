@@ -26,6 +26,11 @@ function Maps() {
                     <h2>Lokasi Strategis</h2>
                     <p>Setiap cluster kami berada di lokasi strategis dengan akses mudah ke fasilitas publik dan pusat kota.</p>
                 </div>
+                  <img 
+                            src="https://res.cloudinary.com/daqiwll92/image/upload/v1760452557/location-summarecon-bogor_yvghe6.webp" 
+                            alt="Peta Lokasi Summarecon Bogor" 
+                            className="map-image"
+                        />
                 <div className="maps-container">
                     <div className="map-buttons">
                         {mapLocations.map(location => (
@@ -46,6 +51,7 @@ function Maps() {
                             referrerPolicy="no-referrer-when-downgrade"
                             title="Peta Lokasi"
                         ></iframe>
+                       
                     </div>
                 </div>
             </div>

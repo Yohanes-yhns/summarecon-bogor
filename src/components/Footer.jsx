@@ -31,7 +31,7 @@ function Footer() {
                         <h3>Kontak</h3>
                         <p><i className="fas fa-map-marker-alt"></i>Jl. Bukit Geulis, Nagrak, Kec. Sukaraja, Kabupaten Bogor, Jawa Barat 16710</p>
                         <p><i className="fas fa-phone"></i> 082211555091</p>
-                        <p><i className="fas fa-envelope"></i> info@summareconbogor.com</p>
+                        <p><i className="fas fa-envelope"></i> send2aldogiov@gmail.com</p>
                     </div>
                 </div>
                 <div className="copyright">

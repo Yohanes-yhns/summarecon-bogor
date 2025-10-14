@@ -37,7 +37,7 @@ function Products() {
         <section className="products" id="products">
             <div className="container">
                 <div className="section-title">
-                    <h2>Produk Kami</h2>
+                    <h2>Discover Your Dream Home</h2>
                     <p>Temukan hunian impian Anda di antara pilihan cluster eksklusif kami dengan fasilitas terbaik.</p>
                 </div>
                 <div className="product-grid">
