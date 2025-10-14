@@ -21,7 +21,7 @@ function Products() {
         {
             id: 2,
             name: "The Ebony Residence", 
-            image: "https://res.cloudinary.com/daqiwll92/image/upload/v1760340754/EbonyResidence_lnlu9h.png",
+            image: "https://res.cloudinary.com/daqiwll92/image/upload/v1760426403/WhatsApp_Image_2025-10-12_at_17.34.40_ajx6yo.jpg",
             description: "Cluster mewah dengan konsep hunian modern yang elegan, dilengkapi dengan taman bermain dan area rekreasi keluarga.",
             features: [
                 "Desain interior mewah",

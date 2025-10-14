@@ -45,12 +45,14 @@ function EbonyDetail() {
     <div className="product-detail-page ebony-detail">
       <div className="container">
         {/* Breadcrumb */}
-        <div className="breadcrumb">
-          <button onClick={() => navigate("/")} className="breadcrumb-link">
+       <div className="breadcrumb">
+          <button onClick={handleHomeClick} className="breadcrumb-link">
             Beranda
           </button>
           <span> / </span>
-          <button className="breadcrumb-link">Produk</button>
+          <button onClick={handleProductsClick} className="breadcrumb-link">
+            Produk
+          </button>
           <span> / </span>
           <span className="breadcrumb-current">{product.name}</span>
         </div>
