@@ -37,7 +37,7 @@ function EbonyDetail() {
     tagline: "Kemewahan Modern dalam Setiap Detail",
     description:
       "The Ebony Residence merupakan cluster mewah dengan desain kontemporer yang elegan. Setiap aspek dirancang untuk memberikan kenyamanan maksimal dan gaya hidup eksklusif bagi penghuninya.",
-    images: ["https://res.cloudinary.com/daqiwll92/image/upload/v1760340754/EbonyResidence_lnlu9h.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760342297/Screenshot_2025-10-12_at_22.09.09_pfjq3v.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760342298/Screenshot_2025-10-12_at_22.13.35_uhiwcp.png"],
+    images: ["https://res.cloudinary.com/daqiwll92/image/upload/v1760340754/EbonyResidence_lnlu9h.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760342297/Screenshot_2025-10-12_at_22.09.09_pfjq3v.png", "https://res.cloudinary.com/daqiwll92/image/upload/v1760427864/WhatsApp_Image_2025-10-12_at_17.37.01_evaoqr.jpg"],
     location: "Jl. Bukit Geulis, Nagrak, Kec. Sukaraja, Kabupaten Bogor",
   };
 
