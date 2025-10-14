@@ -1233,6 +1233,13 @@ footer {
 }
 
 @media (max-width: 576px) {
+   .hero {
+    height: 68vh; /* atau 70vh untuk lebih tinggi */
+    min-height: 400px; /* minimum height */
+    padding: 0;
+    margin: 0;
+  }
+
     .hero h1 {
     display: none;
   }
