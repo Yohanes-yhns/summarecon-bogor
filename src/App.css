@@ -163,12 +163,13 @@ header {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://res.cloudinary.com/daqiwll92/image/upload/v1760340377/BG_tjgbdb.jpg') no-repeat center center/cover;
-  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/daqiwll92/image/upload/v1760340377/BG_tjgbdb.jpg') no-repeat center top/contain;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
   text-align: center;
+  padding: 0 20px;
 }
 
 .hero-content {
@@ -1237,7 +1238,7 @@ footer {
     height: 68vh; /* atau 70vh untuk lebih tinggi */
     min-height: 400px; /* minimum height */
     padding: 0;
-    margin: 0;
+    margin-top: 50px;
   }
 
     .hero h1 {
