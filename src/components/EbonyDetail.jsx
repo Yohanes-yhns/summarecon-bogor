@@ -414,12 +414,27 @@ function EbonyDetail() {
           <div className="description-image">
             <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760343037/Screenshot_2025-10-13_at_15.10.19_ymvyrj.png" alt="Type 7 Brown Premium" />
           </div>
-        </div>
-        <div className="simple-description-section">
           <div className="description-image">
             <img src="https://res.cloudinary.com/daqiwll92/image/upload/v1760343092/Screenshot_2025-10-13_at_15.11.18_vcwhfs.png" alt="Type 7 Brown Premium" />
           </div>
         </div>
+        <div className="simple-description-section">
+          <div className="description-image">
+            <img
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342185/Screenshot_2025-10-12_at_21.56.08_uc9itt.png"
+              alt="Tipe 12 The Maple Golf Residence"
+            />
+          <img
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342233/Screenshot_2025-10-12_at_21.58.02_gqela2.png"
+              alt="Tipe 12 The Maple Golf Residence"
+            />
+            <img
+              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342237/Screenshot_2025-10-12_at_21.58.52_ei0ygf.png"
+              alt="Tipe 12 The Maple Golf Residence"
+            />
+          </div>
+        </div>
+        
       </div>
     </div>
   );
