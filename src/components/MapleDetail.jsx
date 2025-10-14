@@ -51,7 +51,7 @@ function MapleDetail() {
           </button>
           <span> / </span>
           <button onClick={handleProductsClick} className="breadcrumb-link">
-            Produk
+            Gallery
           </button>
           <span> / </span>
           <span className="breadcrumb-current">{product.name}</span>

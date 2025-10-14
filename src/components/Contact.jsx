@@ -118,7 +118,7 @@ function Contact() {
         <div className="contact-info">
           <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
-            <h3>Alamat</h3>
+            <h3>Address</h3>
             <p>
               Jl. Bukit Geulis, Nagrak, Kec. Sukaraja, Kabupaten Bogor, Jawa
               Barat 16710
@@ -126,7 +126,7 @@ function Contact() {
           </div>
           <div className="contact-item">
             <i className="fas fa-phone"></i>
-            <h3>Telepon</h3>
+            <h3>Phone</h3>
             <p>082211555091</p>
           </div>
           <div className="contact-item">

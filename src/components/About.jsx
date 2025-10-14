@@ -4,10 +4,10 @@ function About() {
     return (
         <section className="about" id="about">
             <div className="container">
-                <div className="section-title">
-                    <h2>Summarecon Bogor</h2>
+                {/* <div className="section-title">
+                    <h2>Welcome to Summarecon Bogor</h2>
                     <p>Summarecon Bogor adalah pengembang properti terpercaya dengan pengalaman lebih dari 20 tahun dalam menghadirkan hunian berkualitas.</p>
-                </div>
+                </div> */}
                 <div className="about-content">
                     <div className="about-text">
                         <h3>About Us</h3>

@@ -74,22 +74,22 @@ function Header() {
                         </li>
                         <li>
                             <button onClick={() => handleNavigation('#about')} className="nav-link">
-                                Tentang
+                                About
                             </button>
                         </li>
                         <li>
                             <button onClick={() => handleNavigation('#products')} className="nav-link">
-                                Produk
+                                Gallery
                             </button>
                         </li>
                         <li>
                             <button onClick={() => handleNavigation('#maps')} className="nav-link">
-                                Lokasi
+                                Location
                             </button>
                         </li>
                         <li>
                             <button onClick={() => handleNavigation('#contact')} className="nav-link">
-                                Kontak
+                                Contact
                             </button>
                         </li>
                     </ul>
