@@ -8,7 +8,7 @@ function Products() {
         {
             id: 1,
             name: "The Maple Golf Residence",
-            image: "https://res.cloudinary.com/daqiwll92/image/upload/v1760340650/MapleResidence_nm6oz5.png",
+            image: "https://res.cloudinary.com/daqiwll92/image/upload/v1760440103/WhatsApp_Image_2025-10-14_at_18.05.14_rvgtcs.jpg",
             description: "Hunian eksklusif dengan view lapangan golf yang memukau, dilengkapi fasilitas premium dan desain arsitektur modern.",
             features: [
                 "View langsung ke lapangan golf",

@@ -19,6 +19,26 @@ function Contact() {
                         <h3>Tim Professional Summarecon Bogor</h3>
                         <p>Tim sales profesional kami siap membantu Anda menemukan hunian impian dengan pelayanan terbaik dan informasi yang lengkap tentang The Maple Golf Residence dan The Ebony Residence.</p>
                        
+                        <div className="sales-social-media">
+                            <a 
+                                href="https://www.instagram.com/summareconbogor.gio?igsh=MWJmbXRkZnYyZXk1Nw%3D%3D&utm_source=qr" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="social-icon"
+                            >
+                                <i className="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a 
+                                href="https://www.tiktok.com/@summareconbogor.gio" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="social-icon"
+                            >
+                                <i className="fab fa-tiktok"></i>
+                                <span>TikTok</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 

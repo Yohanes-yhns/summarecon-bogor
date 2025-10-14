@@ -829,6 +829,81 @@ header {
     font-size: 1.1rem;
 }
 
+/* Sales Social Media Styles */
+.sales-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--dark);
+    transition: var(--transition);
+    border: 1px solid #e0e0e0;
+}
+
+.social-icon:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon i {
+    font-size: 1.2rem;
+}
+
+.social-icon span {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Instagram specific color on hover */
+.social-icon:hover i.fa-instagram {
+    color: white;
+}
+
+/* TikTok specific color on hover */
+.social-icon:hover i.fa-tiktok {
+    color: white;
+}
+
+/* Mobile responsive untuk social media */
+@media (max-width: 768px) {
+    .sales-social-media {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .social-icon {
+        padding: 8px 12px;
+    }
+    
+    .social-icon span {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sales-social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-icon {
+        width: 100%;
+        max-width: 200px;
+        justify-content: center;
+    }
+}
 /* Badge untuk Sales */
 .sales-badge {
     display: inline-block;
