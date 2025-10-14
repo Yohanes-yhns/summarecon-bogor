@@ -424,14 +424,6 @@ function EbonyDetail() {
               src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342185/Screenshot_2025-10-12_at_21.56.08_uc9itt.png"
               alt="Tipe 12 The Maple Golf Residence"
             />
-          <img
-              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342233/Screenshot_2025-10-12_at_21.58.02_gqela2.png"
-              alt="Tipe 12 The Maple Golf Residence"
-            />
-            <img
-              src="https://res.cloudinary.com/daqiwll92/image/upload/v1760342237/Screenshot_2025-10-12_at_21.58.52_ei0ygf.png"
-              alt="Tipe 12 The Maple Golf Residence"
-            />
           </div>
         </div>
         
